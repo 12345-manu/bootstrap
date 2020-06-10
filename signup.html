@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>signup for free</title>
+	<style type="text/css">
+		* {box-sizing: border-box}
+		body{
+			background-image: url(./images/signup.jpg);
+			background-repeat: no-repeat;
+			background-size: 1500px 900px;
+			}
+		
+		.forms{
+			color:white;
+			text-align: center;
+			width: 300px;
+			padding: 20px;
+			
+			margin-top: 130px;
+			margin-left: 300px;
+	
+			background: rgba(255,255,255,.2);
+			border: 1px solid black;
+			border-radius: 20px;
+			box-shadow: 8px 8px 15px black;
+
+		}
+		
+		@media screen and (max-width: 1200px){
+			body{
+				background-size: 1200px 800px;
+				background-repeat: no-repeat; 
+			}
+			.forms{
+				margin-left: 200px;
+
+			}
+		}		
+		@media screen and (max-width: 900px){
+			body{
+				background-size: 900px 800px;
+				background-repeat: no-repeat; 
+			}
+			.forms{
+				margin-left: 100px;
+
+			}
+		}	
+		@media screen and (max-width: 600px){
+			body{
+				background-size: 600px 800px;
+				background-repeat: no-repeat; 
+			}
+			.forms{
+				margin-left: 10px;
+
+			}
+		}	
+
+
+		
+		.input{
+			width: 87%;
+			border-radius: 20px;
+			margin: 10px 0;
+			padding: 10px;
+			border: 1px solid black;
+			outline: none;
+		}
+		
+		h1{
+			color: #00bfff;
+			font-size: 30px;
+			text-decoration: none;
+		}
+		.input:hover{
+			width: 95%;
+			border-radius: 20px;
+			margin: 10px 0;
+			padding: 10px;
+			
+			box-shadow:1px 2px 3px #00bfff;
+			outline: none;
+		}
+		.check{
+			color: #00bfff;
+			font-style: normal;
+		}
+		.cancel{
+			width: 40%;
+			padding: 10px;
+			background-color: #f44336;
+			color: white;
+			border: none;
+			outline: none;
+			opacity: 0.9;
+		}
+		.submit{
+			width: 40%;
+			padding: 10px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			outline: none;
+			opacity: 0.9;
+		}
+		.submit:hover{
+			opacity: 1.0;
+		}
+		.cancel:hover{
+			opacity: 1.0;
+		}
+		hr{
+			margin-top: 10px;
+			width: 100%;
+		}
+		.check_p{
+			font-style: italic;
+			float: left;
+		}
+		@media screen and (max-width: 300px) {
+  .cancel, .submit {
+     width: 100%;
+  }
+}
+
+	</style>
+	
+</head>
+<body>
+	<div class="forms">
+		<h1 >SIGN-UP  NOW</h1>
+		<form>
+			<input class='input' type="text" name="fname" placeholder="Enter Your Name"></input>
+			
+			<input class='input' type="Email" name="fname" placeholder="Enter Email"></input>
+		
+			<input class='input' type="Password" name="fname" placeholder="Enter Password"></input>
+		
+			<input class='input' type="Password" name="fname" placeholder="Confirm Password"></input>
+		
+			<p class="check_p"><span><input type="checkbox" name="checkbox">I agree to the <a class='check' href="#">terms & conditions</a></span></p>
+		
+			<button class="cancel">Cancel</button>
+			<button class="submit">Submit</button>
+			<hr>
+			<p>Do you have an account? <a class='check' href="login.html">Sign-in</a></p>
+
+
+		</form>
+	</div>
+
+		
+    
+
+
+</body>
+</html>
